@@ -4,7 +4,7 @@ Used to extract the font-face text in the html file.
 
 ## USE
 ```bash
-npm install font-catch
+npm install font-prune
 ```
 
 ```javascript
