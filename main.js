@@ -268,11 +268,4 @@ class GetPageFontFaceText {
 
 };
 
-new GetPageFontFaceText({
-    src:'./test.html'
-}).then(v => {
-    console.log(v);
-}).catch(e=>{
-    console.log(e);
-});
-
+module.exports = GetPageFontFaceText;

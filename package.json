@@ -5,10 +5,11 @@
   "main": "main.js",
   "dependencies": {},
   "devDependencies": {
+    "css": "^2.2.1",
     "jsdom": "^11.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",

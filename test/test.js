@@ -1,16 +1,6 @@
-# font-catch
-
-Used to extract the font-face text in the html file.
-
-## USE
-```bash
-npm install font-catch
-```
-
-```javascript
-const FontCatch = require('font-catch');
+const FontCatch = require('../main');
 new FontCatch({
-	src:'./test/index.html'
+	src:__dirname+'/demo.html'
 }).then(result => {
 	console.log('status:'+result.status);
 	let resultData = result.data;
@@ -23,4 +13,3 @@ new FontCatch({
 }).catch(err => {
 	console.log(err);
 });
-```
