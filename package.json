@@ -1,0 +1,27 @@
+{
+  "name": "font-catch",
+  "version": "0.5.0",
+  "description": "html font-face text extraction",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jsdom": "^11.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbfkcel/font-catch.git"
+  },
+  "keywords": [
+    "font",
+    "font-face"
+  ],
+  "author": "单炒饭",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbfkcel/font-catch/issues"
+  },
+  "homepage": "https://github.com/sbfkcel/font-catch#readme"
+}
