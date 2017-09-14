@@ -1,5 +1,5 @@
 {
-  "name": "font-catch",
+  "name": "font-face-extract",
   "version": "0.5.0",
   "description": "html font-face text extraction",
   "main": "main.js",
@@ -17,12 +17,15 @@
   },
   "keywords": [
     "font",
-    "font-face"
+    "font-face",
+    "font-face-extract",
+    "font-extract",
+    "font-lite"
   ],
   "author": "单炒饭",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sbfkcel/font-catch/issues"
+    "url": "https://github.com/sbfkcel/font-face-extract/issues"
   },
-  "homepage": "https://github.com/sbfkcel/font-catch#readme"
+  "homepage": "https://github.com/sbfkcel/font-face-extract#readme"
 }
