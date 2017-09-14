@@ -1,17 +1,18 @@
-# font-catch
+# font-face-extract
 
 Used to extract the font-face text in the html file.
 
 ## USE
 ```bash
-npm install font-prune
+npm install font-face-extract
 ```
 
 ```javascript
-const FontCatch = require('font-catch');
-new FontCatch({
+const FontFaceExtract = require('font-face-extract');
+let extract = new FontCatch({
 	src:'./test/index.html'
-}).then(result => {
+});
+extract.then(result => {
 	console.log('status:'+result.status);
 	let resultData = result.data;
 	resultData.forEach(item => {
