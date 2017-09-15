@@ -1,0 +1,25 @@
+@font-face {
+    font-family:'font03';
+    src:url('font03.eot'); /* IE9 Compat Modes */
+    src:url('font03.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('font03.woff') format('woff'), /* Modern Browsers */
+        url('font03.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('font03.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family:'font04';
+    src:url('font04.eot'); /* IE9 Compat Modes */
+    src:url('font04.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('font04.woff') format('woff'), /* Modern Browsers */
+        url('font04.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('font04.svg') format('svg'); /* Legacy iOS */
+}
+
+.div3 {
+    font-family:'font03';
+}
+
+.div4 {
+    font-family:'font04';
+}

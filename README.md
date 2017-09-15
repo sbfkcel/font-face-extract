@@ -2,26 +2,23 @@
 
 Used to extract the font-face text in the html file.
 
-## USE
+## API
 ```bash
 npm install font-face-extract
 ```
 
 ```javascript
 const FontFaceExtract = require('font-face-extract');
-let extract = new FontCatch({
-	src:'./test/index.html'
+let extract = new FontFaceExtract({
+	src:['xxx/demo1.html','xxx/demo2.html']
 });
+
 extract.then(result => {
-	console.log('status:'+result.status);
-	let resultData = result.data;
-	resultData.forEach(item => {
-		console.log('selectors:',item.selectors)
-		console.log('text:',item.text);
-		console.log('fontPath:',item.fontPath);
-		console.log('------------------------')
-	});
-}).catch(err => {
-	console.log(err);
+	console.log(JSON.stringify(result,null,2))
+}).catch(error => {
+	console.log('错误',error);
 });
 ```
+
+## License
+ISC
