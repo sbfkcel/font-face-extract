@@ -1,5 +1,7 @@
 # font-face-extract
 
+[![npm version](https://badge.fury.io/js/font-face-extract.svg)](https://badge.fury.io/js/font-face-extract)
+
 Used to extract the font-face text in the html file.
 
 ## API

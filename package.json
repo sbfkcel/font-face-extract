@@ -1,6 +1,6 @@
 {
   "name": "font-face-extract",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "html font-face text extraction",
   "main": "main.js",
   "dependencies": {
