@@ -1,12 +1,13 @@
 {
   "name": "font-face-extract",
-  "version": "0.5.1",
+  "version": "0.5.3",
   "description": "html font-face text extraction",
   "main": "main.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "css": "^2.2.1",
     "jsdom": "^11.2.0"
+  },
+  "devDependencies": {    
   },
   "scripts": {
     "test": "node test/test.js"
