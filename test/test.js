@@ -2,7 +2,7 @@ const path = require('path'),
 	FontCatch = require('../main');
 
 let fontCatch = new FontCatch({
-	src:[path.join(__dirname,'demo.html'),path.join(__dirname,'demo1.html')]
+	src:[path.join(__dirname,'../../index.html')]
 });
 
 fontCatch.then(result => {
