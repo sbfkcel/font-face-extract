@@ -27,7 +27,7 @@ extract.then(result => {
 
 ## 相关
 
-[https://github.com/sbfkcel/fws](fws)
+[https://github.com/sbfkcel/fws](https://github.com/sbfkcel/fws)
 
 `fws`是一个前端脚手架工具，其中字体精简部分就有使用到`font-face-extract`
 
